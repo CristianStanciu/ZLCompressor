@@ -163,7 +163,7 @@ namespace zlstate {
         inline auto static const kChoices = juce::StringArray{
             "OFF", "ON"
         };
-        int static constexpr kDefaultI = 0;
+        int static constexpr kDefaultI = 1;
     };
 
     class PSideEQDisplay : public ChoiceParameters<PSideEQDisplay> {
@@ -173,7 +173,7 @@ namespace zlstate {
         inline auto static const kChoices = juce::StringArray{
             "OFF", "ON"
         };
-        int static constexpr kDefaultI = 0;
+        int static constexpr kDefaultI = 1;
     };
 
     class PComputerCurveDisplay : public ChoiceParameters<PComputerCurveDisplay> {
